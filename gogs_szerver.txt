@@ -123,3 +123,7 @@ INSTALL_LOCK = true
 SECRET_KEY   = haoVAtD4oKMe
 #############################################/home/git/custom/conf/app.ini fájl vége
 
+
+nano fajl .
+
+
