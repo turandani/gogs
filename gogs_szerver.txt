@@ -124,6 +124,51 @@ SECRET_KEY   = haoVAtD4oKMe
 #############################################/home/git/custom/conf/app.ini fájl vége
 
 
-nano fajl .
+
+ mc
+
+root@ubuntu:/home/git/custom/conf# nano app.ini
+
+root@ubuntu:~# chmod ugo+rw
+chmod: a(z) „”ugo+rw”” operandusa hiányzik
+További információkért adja ki a(z) „chmod --help” parancsot.
+root@ubuntu:~# chmod ugo+rw  /home/git/custom/conf/app.ini
+root@ubuntu:~# ^C
+root@ubuntu:~# 
+
+normalgep:
+
+ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/c11/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/c11/.ssh/id_rsa.
+Your public key has been saved in /home/c11/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:sz1AzG3eowAODP7zP7I8gwisbzPM3r6YF5dNfXq9D4o c11@u134
+The key's randomart image is:
++---[RSA 2048]----+
+|  .              |
+| . o   o .       |
+|  . o . +.o      |
+|   . o o.o...    |
+|.   o .+S .oo.   |
+|..  .oo .*.....  |
+|.+ . +. . +.  .. |
+|. B+o.+..  o ... |
+| +==+.o=..E .  ..|
++----[SHA256]-----+
+c11@u134:~$ cat /home/c11/.ssh/id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCogALM9KYuXXWZb+9bLsdAdAES4LAEtXxunoqrMjtLDCSkct/Nd04C3hsugdhlpLVF0vxAIQqInFq9niEaP0K74hC+fxEqY9Gt2sdsHgysLPXQXtdJOUVrQuPiYHhu2MrpOlwCnZB06czynkYjQ8FJbg+faPPS/IumtAzqyFfE1YenquOs18reCadqnWao/01+9CsjNSK3MxwYHDr1ofrFL0keboVMgbkv7aJLrwih50NkwhLOSPj+dBrU1AcYmofloXgBcXjIU2n0Yj0yLupY+yzgxNIDxeWmLndByhhu/Ep4AIuiAh0/ynLSSV1OfR5J4M7sD340ad9kKc0Z28kN c11@u134
+c11@u134:~$ git clone git@192.168.2.89:ubuntu/a.git
+Cloning into 'a'...
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (4/4), done.
+Receiving objects: 100% (5/5), 989 bytes | 989.00 KiB/s, done.
+remote: Total 5 (delta 0), reused 0 (delta 0)
+c11@u134:~$ ls -a
+
+
 
 
